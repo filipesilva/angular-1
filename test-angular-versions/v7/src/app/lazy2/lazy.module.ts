@@ -4,10 +4,10 @@ import { UIRouterModule } from '@uirouter/angular';
 import { LazyComponent } from './lazy.component';
 
 export const states = [
-  { name: 'lazy', url: '/lazy', component: LazyComponent },
-  { name: 'lazy.child', url: '/child', component: LazyComponent },
+  { name: 'lazy2', url: '/lazy2', component: LazyComponent },
+  { name: 'lazy2.child', url: '/child', component: LazyComponent },
   {
-    name: 'lazy.child.viewtarget',
+    name: 'lazy2.child.viewtarget',
     url: '/viewtarget',
     views: {
       '!header': { component: LazyComponent },
